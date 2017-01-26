@@ -1,0 +1,218 @@
+body {
+	background-image:url(../images/bg.png);
+
+	
+	
+}
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+header, .content-main, .sidebar{ /*Navigation and h1 container */
+	/*max-width: 960px;*/
+	width: 100%;
+	background-color: #F6FCFE;
+	/*margin: 0 auto;
+
+	*/
+}
+
+header, h2, h3 {
+
+	border-bottom: #d5dadc 3px;
+	border-bottom-style: solid;
+
+}
+
+.box-1 {   /* background box*/
+	background-color: #3fa1a3;
+	max-width: 250px;
+	width: 100%;
+}
+
+
+
+.h1, h1{
+	
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	margin-bottom: 0px;
+	
+}	
+
+.nav.nav-tabs {
+		border-bottom: none;
+		float: right;
+		margin-top: 75px;
+
+}
+
+ul li a {
+	color: #8c8f84;
+	
+
+}
+
+.content-main {
+	height: auto;
+	width: 400px;
+	border: solid #d5dadc;
+	padding: 0px 30px 20px 30px;
+	margin-top: 20px;
+}
+
+
+
+h2, h3 {
+	color: #3fa1a3;
+	padding-bottom: 10px;
+
+	/*border-bottom-style: solid;
+	border-bottom-color: #d5dadc;*/
+}
+
+.author {
+	height: auto;
+	width: 200px;
+	float: left;
+	margin: 10px;
+	
+}
+
+#aboutme {
+	
+	margin-top: 15px;
+	
+/*	margin-top: 16px;*/	
+}
+
+.sidebar{
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: auto;
+	height: 175px;
+
+	
+}
+
+p {
+	/*margin-top: 16px;*/
+}
+
+h3 {
+	padding-top: 30px;
+	text-align: center;
+
+}
+#icon-row {
+	/*margin-left: -12px;
+    margin-right: -12px;*/
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.icons {
+	width: 70px;
+	height: auto;
+	margin: 3px;
+}
+
+.footer {
+	
+    
+
+    background-color: #3fa1a3;
+  	margin-top: 25px;
+  	border-top-color: 3px; 
+  	border-top-color: #D4D9DB;
+  	border-top-style: solid;
+  
+}
+
+#footer-border{
+		/*border-top-color: 3px; 
+  	border-color: #D4D9DB;*/
+  	border: black 10px;
+}
+.footer-text{
+	color: white;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#hangman{
+	background-image:url(../images/hangman.jpg);
+	/*height: 100px;
+	width: 100px;*/
+}
+
+#rpg{
+	background-image:url(../images/rpg.jpg);
+	/*height: 100px;
+	width: 100px;*/
+}
+
+#trivia{
+	background-image:url(../images/trivia.jpg);
+	/*height: 100px;
+	width: 100px;*/
+}
+
+#info{
+	background-image:url(../images/info.jpg);
+	/*height: 100px;
+	width: 100px;*/
+}
+
+#rock{
+	background-image:url(../images/rock.jpg);
+	/*height: 100px;
+	width: 100px;*/
+	
+}
+
+
+.port-pics {
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	
+	
+}
+
+.text-box{
+	background-color: grey;
+/*	bottom: 0;*/
+	color: white;
+	height: 40px;
+	text-align: center;
+	position: absolute;
+	width: 150px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	line-height: 40px;
+
+}
+
+#main-row {
+	margin-left: 0px;
+	margin-right:0px;
+}
+
+/*footer{
+	
+
+line
+}*/
+/*/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) 
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) 
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) 
